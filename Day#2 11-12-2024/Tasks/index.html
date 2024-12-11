@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!--Exercise #1-->
+    <h1>HTML Day #2</h1>
+
+    <h2><mark>Exercise #1</mark></h2>
+    <ol type="I">
+        <li>List Item 1
+            <ol type="a">
+                <li>Nested Item 1.1</li>
+                <li>Nested Item 1.2</li>
+            </ol>
+        </li>
+        <li>List Item 2
+            <ol>
+                <li>Nested Item 2.1</li>
+                <li>Nested Item 2.2
+                    <ul type="circle">
+                        <li>Nested Item 2.2.1</li>
+                        <li>Nested Item 2.2.2
+                            <ul type="square">
+                                <li>Nested Item 2.2.2.1</li>
+                                <li>Nested Item 2.2.2.2</li>
+                            </ul>
+                        </li>
+                        <li>Nested Item 2.2.3</li>
+                    </ul>
+                </li>
+                <li>Nested Item 2.3</li>
+            </ol>
+        </li>
+        <li>List Item 3
+            <ul type="disc">
+                <li>Nested Item 3.1</li>
+                <li>Nested Item 3.2</li>
+                <li>Nested Item 3.3</li>
+            </ul>
+        </li>
+    </ol>
+
+    <!--Exercise #2-->
+    <h2><mark>Exercise #2</mark></h2>
+    <h3>Images in Tables</h3>
+    <hr>
+    <p>What are your favorite pets</p>
+    <table border="1" cellspacing="0" cellpadding="0">
+        <tr>
+            <th>Pet Image</th>
+            <th>More facts about</th>
+        </tr>
+        <tr>
+            <td><img src="horse.jpg" width="300 px" alt="a black horse"></td>
+            <td width="300px"><a href="https://en.wikipedia.org/wiki/Horse">Horses</a></td>
+        </tr>
+        <tr>
+            <td><img src="dog.jpeg" width="300px" alt="a dog"></td>
+            <td width="300px"><a href="https://en.wikipedia.org/wiki/Dog">Dogs</a></td>
+        </tr>
+        <tr>
+            <td><img src="Cat.jpg" width="300px" alt="two cats"></td>
+            <td width="300px"><a href="https://en.wikipedia.org/wiki/Cat">Cats</a></td>
+        </tr>
+    </table>
+
+    <!--Exercise #3-->
+    <h2><mark>Exercise #3</mark></h2>
+    <h3>Registration form</h3>
+
+    <form method="post" style="text-align: center; width: 30%; margin-left: auto; margin-right: auto;">
+        <fieldset style="background-color: lightgoldenrodyellow;">
+            <legend style="text-align: left;">Personal details</legend>
+            <label>First Name</label>
+            <input type="text" name="first name" value=""> <br><br>
+            <label>Last Name</label>
+            <input type="text" name="last name" value=""> <br><br>
+            <label>Email Address</label>
+            <input type="email" name="email" value=""> <br><br>
+            <label>Gender</label>
+            <input type="radio" name="male" value="male">
+            <label>Male</label>
+            <input type="radio" name="female" value="female">
+            <label>Female</label>
+        </fieldset>
+
+        <fieldset style="background-color: lightgoldenrodyellow;">
+            <legend style="text-align: left;">City</legend>
+            <label for="city">City</label>
+            <select id="city" name="city">
+                <option value="amman">Amman</option>
+                <option value="irbid">Irbid</option>
+            </select>
+        </fieldset>
+        <br>
+        <input type="submit" value="Subsecribe">
+    </form>
+
+    <!--Exercise #4-->
+    <h2><mark>Exercise #4</mark></h2>
+    <h3>Our First Form!</h3>
+    <form style="border: 1px dotted; width: 400px; padding: 10px;">
+        <label>UserName:</label>
+        <input type="text"><br><br>
+        <label>Password:</label>
+        <input type="password"><br>
+        <input type="button" value="Login">
+    </form>
+
+    <!--Exercise #5-->
+    <h2><mark>Exercise #5</mark></h2>
+    <h3>Regestration Form!</h3>
+    <div style="border: 1px dotted; width: 400px; padding: 10px;">
+        <h4>Personal details</h4>
+        <hr><br>
+        <form method="post">
+            <label>First Name:</label>
+            <input type="text" name="first name" value=""> <br><br>
+            <label>Last Name:</label>
+            <input type="text" name="last name" value=""> <br><br>
+            <label>Email:</label>
+            <input type="email" name="email" value=""> <br><br>
+            <label>Gender:</label>
+            <input type="radio" name="male" value="male">
+            <label>Male</label>
+            <input type="radio" name="female" value="female">
+            <label>Female</label> <br><br>
+
+            <label for="city">City:</label>
+            <select id="city" name="city">
+                <option value="amman">Amman</option>
+                <option value="irbid">Irbid</option>
+            </select> <br><br>
+            <input type="submit" value="Sign Up">
+        </form>
+    </div>
+
+    <!--Exercise #6-->
+    <h2><mark>Exercise #6</mark></h2>
+    <h3>TIME TABLE</h3>
+    <table border="3" cellspacing="0" cellpadding="0" width="50%" height="400px" style="text-align: center;">
+        <tr>
+            <th>Day/Period</th>
+            <th>I <br>9:30-10:20</th>
+            <th>II <br>9:30-10:20</th>
+            <th>III <br>9:30-10:20</th>
+            <th>9:30-10:20</th>
+            <th>IV <br>9:30-10:20</th>
+            <th>V <br>9:30-10:20</th>
+            <th>VI <br>9:30-10:20</th>
+            <th>VII <br>9:30-10:20</th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td>Eng</td>
+            <td>Mat</td>
+            <td>Che</td>
+            <td rowspan="6" style=" writing-mode: vertical-rl;text-orientation: upright;"><strong>LUNCH</strong></td>
+            <td colspan="3">Lab</td>
+            <td>Phy</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td colspan="3">Lab</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td>Mat</td>
+            <td>SPORTS</td>
+        </tr>
+        <tr>
+            <th>Wednsday</th>
+            <td>Mat</td>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td colspan="3">LIBRARY</td>
+        </tr>
+        <tr>
+            <th>Thursday</th>
+            <td>phy</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td colspan="3">Lab</td>
+            <td>Mat</td>
+        </tr>
+        <tr>
+            <th>Friday</th>
+            <td colspan="3">Lab</td>
+            <td>Mat</td>
+            <td>Che</td>
+            <td>Eng</td>
+            <td>Phy</td>
+        </tr>
+        <tr>
+            <th>Saturday</th>
+            <td>Eng</td>
+            <td>Che</td>
+            <td>Mat</td>
+            <td colspan="3">SEMINAR</td>
+            <td>SPORTS</td>
+        </tr>
+    </table>
+</body>
+
+</html>
