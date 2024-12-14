@@ -1,0 +1,11 @@
+1- Can we add a form inside another? Why or why not?
+
+   No we cannot do so, because nested forms are not allowed in HTML as only one form can be active per page.
+   There can be a confusion when submitting forms and some actions might be ignored.
+
+2- What would happen if we have more than one submission input?
+   We can have more than one, but only one (the clicked one) will be sent along with the data. 
+   And we can handle multiple buttons based on the button name or value.
+
+3- How to submit a form without the submit button?
+   By clicking "Enter" key, using JS or using a link and trigger submission with JS.
