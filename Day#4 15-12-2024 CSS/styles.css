@@ -1,0 +1,24 @@
+.External{
+    color: blueviolet;
+}
+
+.absolute{
+    font-size: 60px;
+}
+
+.relative{
+    font-size: 60%;
+}
+
+.bgImage{
+    width: 600px;
+    height: 600px;
+    background-image: url('LoadHTML-660x371.png');
+    background-repeat: repeat;
+    background-attachment: local; 
+    background-size: 100%;
+}
+
+p{
+    color: aqua !important;
+}
