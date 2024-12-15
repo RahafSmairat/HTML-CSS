@@ -1,0 +1,54 @@
+** CSS is used to add style to the HTML webpage.
+
+** There are 3 methods to add CSS to the webpage:
+
+- Inline: Directly to the element tag.
+- Internal (embedded): In the head section within <style> tag.
+- External: Separate file with extension .css and link it using <link> tag within the head            
+  section.
+
+** How does CSS works:
+
+1- When the browser loads the HTML, it convert it into DOM.
+2- Linked recourses within HTML will be fetched (Videos, Images, CSS files, etc).
+3- The browser will parse the CSS and based on the selector type it applies the style to the     
+   correct node on DOM (Render Trees).
+4- The visual website appears on the screen.
+
+** CSS selectors: We use the selectors to target a specific HTML element to style it.
+
+** Types of CSS selectors: 
+
+- Universal (*): to select all elements.
+- Type: targets an element.
+- Class (.): targets a class with specific value.
+- ID (#): targets an ID with specific value.
+
+** Grouping Selectors: We can group selectors by separating them with commas to avoid repetition.
+** Descendant Selectors: We use it to target nested elements.
+
+** Pseudo-classes: Special state of an element (Hover, Visited/Unvisited, checked, etc).
+** nth-child(An-B): selects a child based on it's position, n is all integers > 0.
+   example: even items nth-child(2n) and odd is nth-child(2n+1).
+
+** Text properties: 
+   - color to change the font color by color name/ Hex value #000000 or RGB value rgb(0,0,0)
+   - font-family: to change the font family.
+   - font-size.
+   - text align: left, right, center, justify (equal lines), initial (default), inherit  
+(parent).
+
+** Background properties:
+   - background-color: color, transparent, initial or inherit.
+   - background-image: url("")
+
+** Box Model: 
+  - Content: the text or image itself.
+  - Padding: area around the content.
+  - Border: around the padding.
+  - Margin: area around the border.
+
+** Units of Measurement:
+   - Absolute (Fixed length): px, cm, mm
+   - Relative (Based on another length property): em (font-size), rem (root size), % (parent element), vh (1% of veiwport hight), vw (1% of veiwport width).
+   
