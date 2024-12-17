@@ -1,0 +1,9 @@
+CSS Transitions:
+
+Allows us to change the properties smoothly over a given duration.
+
+There are two main things we need to specify to create a transaction:
+
+1- The CSS properties we want to change or add.
+2- The duration of the effect.
+

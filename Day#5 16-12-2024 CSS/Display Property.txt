@@ -1,0 +1,6 @@
+Display Property
+
+1- Inline: Any height and width properties will have no affect.
+2- Inline-block: The element itself will be inline but can be affected by height and width.
+3- Block: The element starts on a new line and takes up the whole width as a block.
+4- None: Removed.
