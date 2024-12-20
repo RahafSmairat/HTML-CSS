@@ -152,3 +152,6 @@ footer {
   align-content: center;
   font-size: 90%;
 }
+footer a{
+    text-decoration: none;
+}
