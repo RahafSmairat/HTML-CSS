@@ -1,0 +1,30 @@
+** Responsive Design:
+
+To make the webpage look good on all devices using HTML and CSS.
+
+** Media Query:
+
+It's a technique to make the webpage responsive using the rule @media to apply certain properties if a condition is true.
+
+** Syntax:
+
+@media not|only media type and (media feature and|or|not media feature)   
+{  
+    // CSS Property  
+}  
+
+not: If the conditions within not evaluate to false, the styles will apply.
+
+ex: 
+
+@media not screen {
+    body {
+        background-color: grey;
+    }
+}
+
+Styles will apply to devices that are not screens, such as printers or speech devices.
+
+
+Html interview bit
+

@@ -494,6 +494,32 @@ footer {
     background-color: rgba(255, 255, 255, 1);
     height: 715.87px;
     width: 100%;
+    padding-left: 59px;
+    padding-top: 81px;
+    padding: 81px 59px 0 59px;
+}
+
+.footer-logo {
+    width: fit-content;
+    font-family: "Stick No Bills", serif;
+    font-size: 31.73px;
+    font-weight: 400;
+    line-height: 30.95px;
+    font-weight: 800;
+    color: #35736E;
+    margin-bottom: 2.5%;
+}
+
+footer form {
+    margin-left: 30px;
+}
+
+input::placeholder {
+    padding-left: 20px;
+    font-family: "Inter", serif;
+    font-size: 13.07px;
+    font-weight: 400;
+    line-height: 15.81px;
 }
 
 footer input {
@@ -502,7 +528,7 @@ footer input {
     top: 4073.07px;
     left: -14.73px;
     border-radius: 9.33px;
-    border: 0.93px rgba(196, 196, 196, 1);
+    border: 0.93px solid rgba(196, 196, 196, 1);
 }
 
 footer button {
@@ -513,4 +539,109 @@ footer button {
     border-radius: 9.33px;
     border: 0.93px;
     background-color: rgba(53, 115, 110, 1);
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+
+.form-label {
+    margin-bottom: 1.5rem;
+    font-family: "Inter", serif;
+    font-size: 16.8px;
+    font-weight: 600;
+    line-height: 20.33px;
+}
+
+.form-label label {
+    margin-left: 10px;
+}
+
+.footer-row1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+}
+
+.footer-row2 {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 2%;
+}
+
+.footer-col {
+    flex: 1;
+}
+
+.footer-row2 div:nth-child(1) {
+    flex: 3;
+}
+
+.footer-row2 p,
+.footer-row2 a {
+    font-family: "Inter", serif;
+    font-size: 13.07px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: #6A6A6A;
+    text-decoration: none;
+}
+
+.footer-row2 p {
+    width: 72.9%;
+    line-height: 22.4px;
+}
+
+.footer-sofa-img {
+    position: absolute;
+    top: -20%;
+    right: 10%;
+}
+
+.footer-links-col {
+    padding-top: 3.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.social-icons {
+    margin-top: 3%;
+}
+
+.horizontal {
+    width: 100%;
+    height: .93px;
+    justify-self: center;
+    margin-top: 3%;
+}
+
+.terms-privacy a {
+    margin-left: 10%;
+    text-decoration: none;
+    font-family: "Inter", serif;
+    font-size: 13.07px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: #6A6A6A;
+}
+
+.terms-privacy {
+    margin-left: 60%;
+    margin-top: 3%;
+}
+
+.copyright {
+    font-family: "Inter", serif;
+    font-size: 13.07px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: #6A6A6A;
+    text-decoration: none;
+    margin-top: 6%;
+    justify-self: center;
 }
